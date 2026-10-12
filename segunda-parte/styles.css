@@ -1,0 +1,102 @@
+
+/* ESTILOS GENERALES */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef4fa;
+    color: #333;
+    margin: 0;
+}
+
+/* BARRA DE NAVEGACIÓN */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #174a7e;
+    padding: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #87cefa;
+}
+
+/* PERFIL DEL DOCTOR */
+.perfil {
+    background-color: white;
+    text-align: center;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.nombre-doctor {
+    color: #174a7e;
+}
+
+.especialidad {
+    color: #2878b5;
+    font-size: 20px;
+}
+
+#descripcion-doctor {
+    margin: 25px 0;
+    line-height: 1.5;
+}
+
+/* BOTÓN PARA AGENDAR CITA */
+.boton {
+    background-color: #2878b5;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #174a7e;
+}
+
+/* SECCIÓN DE COMENTARIOS */
+.comentarios {
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor-comentarios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* TARJETAS DE PACIENTES */
+.tarjeta {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+}
+
+.tarjeta h3 {
+    color: #174a7e;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: #174a7e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
